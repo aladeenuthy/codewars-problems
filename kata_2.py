@@ -1,5 +1,5 @@
 def create_phone_number(numbers):
-   numbers = numbers = [str(x) for x in numbers]
+   numbers = [str(x) for x in numbers]
    phone_number = f"({''.join(numbers[:3])}) {''.join(numbers[3:6])}-{''.join(numbers[6:])}"
    return phone_number
 
